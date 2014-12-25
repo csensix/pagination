@@ -1,3 +1,4 @@
+<?php
 class Pager {
     public $url;  
     private $maxpageno;  
@@ -79,3 +80,4 @@ class Pager {
         return "<li{$class}><a href='{$url}'>{$i}</a></li>";  
     }  
 }
+?>
