@@ -1,0 +1,12 @@
+ul,li,p{list-style:none;margin:0;padding:0}
+a{text-decoration:none;}
+/*分页*/
+.pagelist,p{width: 600px;margin: 0 auto;height: 25px;padding-top: 10px;}
+.pagelist li{float: left;}
+.pagelist a{display: block;width: 22px;height: 19px;line-height:20px;border: 1px solid #e3e3e3;background: url(list.gif) repeat-x;text-align: center;color: #676765;font-size: 12px;margin-left: 5px;}
+.pagelist li.in a{background: url(list_in.gif) repeat-x;border-color: #b5936d;color: #fff}
+.pagelist li.index a{width: 40px;}/*首页*/
+.pagelist li.pre a{width: 55px;}/*上一页*/
+.pagelist li.pageno a{width: 35px;}/*省略*/
+.pagelist .pageinfo{font-size: 12px;}
+p{font:14px/20px 'Microsoft Yahei';}
